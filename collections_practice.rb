@@ -4,8 +4,8 @@ end
 
 def contain_a(array)
   new = []
-  array.each do |x|
-    x.include?("a")
+  array.delete_if do |x|
+    x !== x.include?("a")
     new << x
  end
   new
