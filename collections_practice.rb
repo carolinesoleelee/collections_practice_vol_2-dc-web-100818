@@ -2,10 +2,11 @@ def begins_with_r(array)
   if  array.any? do |x|
   x.include?("r")
   return true
-else false
+   else
+     return false
 end
 end
-
+end
 
 def contain_a(array)
   array.select do |x|
