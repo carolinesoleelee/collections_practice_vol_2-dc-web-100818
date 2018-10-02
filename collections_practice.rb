@@ -24,10 +24,10 @@ def remove_non_strings(array)
 end
 
 def count_elements (array)
-   merged_data []
+   merge_data []
    array.collect do |key, value|
      value.collect do |key, value|
-       merged_data << value
+       merge_data << value
  end
  end  
 end
