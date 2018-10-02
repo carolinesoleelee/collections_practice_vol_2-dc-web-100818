@@ -33,6 +33,7 @@ def merge_data (one, two)
  end
  end
 end
+end
 
 def find_cool(array)
 	array.select do |x|
