@@ -24,7 +24,7 @@ def remove_non_strings(array)
 end
 
 def merge_data (one, two)
-   merged_data []
+   merged_data = []
    array.collect do |key, value|
      value.collect do |key, value|
        merged_data << value
