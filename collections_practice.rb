@@ -4,7 +4,8 @@ def begins_with_r(array)
   if array.find do |x|
      x.include?("s")
      return false
-   end 
+   end
+   end
   end
 end
 
