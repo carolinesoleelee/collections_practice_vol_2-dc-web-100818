@@ -3,8 +3,10 @@ def begins_with_r(array)
 end
 
 def contain_a(array)
+  new = []
   array.any? do |x|
     x.include?("a")
+    new << x
  end
-  "#{x}"
+ new
 end
