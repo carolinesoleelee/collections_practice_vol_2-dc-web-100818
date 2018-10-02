@@ -10,7 +10,7 @@ def contain_a(array)
 
 def first_wa(array)
   array.any? do |x|
-     x.match("w")
+     x.include?("w")
 end
  "#{x}"
 end
