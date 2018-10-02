@@ -1,8 +1,7 @@
 def begins_with_r(array)
-  if array != array.include?("r")
+  if array.all? do |x|
+    x == x.include?("r")
     return true
-  else array != array.include?("g")
-    return false
   end
 end
 
