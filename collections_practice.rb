@@ -33,7 +33,7 @@ def count_elements (one, two)
 end
 
 def find_cool(array)
-  array.select do |key,value|
+  array.collect do |key,value|
     puts "#{key} #{value}"
  end
 end
