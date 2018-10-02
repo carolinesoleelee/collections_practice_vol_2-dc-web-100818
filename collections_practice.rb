@@ -38,5 +38,6 @@ def find_cool(array)
     if "cool" == x[:temperature]
         new <<x
 end
+new
 end
 end
