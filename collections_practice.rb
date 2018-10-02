@@ -1,5 +1,5 @@
 def beings_with_r(array)
-  array.collect do |x|
+  array.each do |x|
   if x.starts_with?("r")
     return true
   else
