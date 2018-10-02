@@ -1,8 +1,8 @@
 def begins_with_r(array)
-  if array != array.include?("r")
-    return false
-  else array == array.include?("r")
+  if array == array.include?("r")
     return true
+  else array != array.include?("r")
+    return false
   end
 end
 
