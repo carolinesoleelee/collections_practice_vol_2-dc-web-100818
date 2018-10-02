@@ -2,7 +2,8 @@ def begins_with_r(array)
   if  array.any? do |x|
   x.include?("r")
   return true
-else puts false
+else x.include?("s")
+  return false
 end
   end
 end
