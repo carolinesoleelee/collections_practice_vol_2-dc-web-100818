@@ -24,6 +24,16 @@ def remove_non_strings(array)
 end
 
 
+def count_elements(array)
+  new = []
+  array.uniq.each do |x|
+    new << {:name=>x[:name], :count=>array.count(x)}
+  end
+  new
+end
+
+
+
 def merge_data(keys,data)
 	merged = []
 	keys.each do |key_first|
