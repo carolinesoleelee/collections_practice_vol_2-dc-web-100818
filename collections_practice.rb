@@ -1,6 +1,6 @@
 def begins_with_r(array)
-  if array.all? do |x|
-    x == x.include?("r")
+     array.all? do |x|
+    x[0] == ("r")
     return true
 end
 end
