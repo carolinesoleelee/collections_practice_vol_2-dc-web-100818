@@ -1,6 +1,6 @@
 def begins_with_r(array)
      array.all? do |x|
-     x.to_s.start_with?("r")
+  if    x.to_s.start_with?("r")
      return true
    else
      return false
