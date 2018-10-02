@@ -23,7 +23,7 @@ def remove_non_strings(array)
  end
 end
 
-def count_elements (one, two)
+def merged_data (one, two)
    merged_data []
    array.collect do |key, value|
      value.collect do |key, value|
