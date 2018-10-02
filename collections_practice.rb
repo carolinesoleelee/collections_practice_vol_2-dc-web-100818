@@ -14,8 +14,8 @@ def contain_a(array)
   end
 
 def first_wa(array)
-  array.any? do |x|
-     x.include?("wa")
+  array.find do |x|
+     x == ("wa")
 end
  "#{x}"
 end
