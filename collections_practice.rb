@@ -1,6 +1,6 @@
 def begins_with_r(array)
-  array.any? do |x|
-  x.include?("r")
+  if array !== array.include?("r")
+    return false
   end
 end
 
