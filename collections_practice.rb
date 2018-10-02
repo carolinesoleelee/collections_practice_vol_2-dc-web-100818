@@ -5,5 +5,6 @@ end
 def contain_a(array)
   array.any? do |x|
     x.include?("a")
- end    
+ end
+  "#{x}"
 end
