@@ -2,7 +2,8 @@ def begins_with_r(array)
   if array.all? do |x|
     x == x.include?("r")
     return true
-  else
+  else array.all? do |x|
+    x != x.include?("r")
     return false
   end
 end
