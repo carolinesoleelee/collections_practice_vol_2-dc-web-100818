@@ -14,8 +14,10 @@ def contain_a(array)
   end
 
 def first_wa(array)
+  new []
   array.find do |x|
      x == ("wa")
+    new << x
 end
- "#{x}"
+ new
 end
