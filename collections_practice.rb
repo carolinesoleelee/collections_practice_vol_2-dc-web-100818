@@ -23,11 +23,17 @@ def remove_non_strings(array)
  end
 end
 
-def count_elements (array)
+def count_elements (one, two)
    merged_data []
    array.collect do |key, value|
      value.collect do |key, value|
        merged_data << value
  end
  end
+end
+
+def find_cool(array)
+  array.select do |key,value|
+    value == "cool"
+ end 
 end
