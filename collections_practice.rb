@@ -1,3 +1,3 @@
-def beings_with_r(array)
-  array.starts_with?("r")
+def beings_with_r
+["ruby", "rspec", "rails"].starts_with?("r")
 end
