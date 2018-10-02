@@ -12,4 +12,5 @@ def first_wa(array)
   array.any? do |x|
      x.include?("w")
 end
+ "#{x}"
 end
