@@ -23,11 +23,13 @@ def remove_non_strings(array)
  end
 end
 
-def merge_data (array)
+def merge_data (one, two)
    merged_data = []
-   array.collect do |key, value|
-     value.collect do |key, value|
-       merged_data << value
+   one.collect do |key_|
+     two.collect do |key, value|
+       if key_[:first_name] == key
+		v[:first_name] = key
+	merged_data << value
  end
  end
 end
