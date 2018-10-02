@@ -1,6 +1,7 @@
 def begins_with_r(array)
-  if ["ruby", "rspec", "rails"].start_with?("r")
+  if ["ruby", "rspec", "rails"].all.start_with?("r")
     return true
+  else return false
 end
 end
 
