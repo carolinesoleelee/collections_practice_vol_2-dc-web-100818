@@ -8,5 +8,5 @@ def contain_a(array)
     x.include?("a")
     new << x
  end
- puts new
+  new
 end
