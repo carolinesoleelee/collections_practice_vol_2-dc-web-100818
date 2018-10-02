@@ -4,9 +4,9 @@ def begins_with_r(array)
   return true
    else
      return false
+  end
 end
-end
-end
+
 
 def contain_a(array)
   array.select do |x|
