@@ -35,6 +35,7 @@ end
 def find_cool(array)
   array.collect do |x|
     if "cool" == x[:temperature]
+        x
 end
 end
 end
