@@ -14,4 +14,5 @@ def contain_a(array)
 def first_wa(array)
   array.find do |x|
      x.to_s.start_with?("wa")
+   end
 end
