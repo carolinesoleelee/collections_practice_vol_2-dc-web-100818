@@ -4,6 +4,7 @@ def begins_with_r(array)
     return true
   end
 end
+end
 
 
 def contain_a(array)
