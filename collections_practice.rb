@@ -33,7 +33,10 @@ def count_elements (one, two)
 end
 
 def find_cool(array)
-  array.any? do |key,value|
-    value == "cool"
- end
+  new = []
+  array.collect do |x|
+    if "cool" == x[:temperature]
+      new << x
+end
+end
 end
