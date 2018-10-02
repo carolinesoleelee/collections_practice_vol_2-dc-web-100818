@@ -1,8 +1,5 @@
 def begins_with_r(array)
-  if array.all?.start_with?("r")
-    return true
-  else return false
-end
+ array.start_with?("r")
 end
 
 def organize_schools
