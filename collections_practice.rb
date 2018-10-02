@@ -22,3 +22,12 @@ def remove_non_strings(array)
    x != x.to_s
  end
 end
+
+def count_elements (array)
+   merged_data []
+   array.collect do |key, value|
+     value.collect do |key, value|
+       merged_data << value
+ end
+ end  
+end
