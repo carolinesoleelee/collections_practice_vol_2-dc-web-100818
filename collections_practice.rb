@@ -19,6 +19,6 @@ end
 
 def remove_non_strings(array)
   array.delete_if do |x|
-   x != String
+   x != x.to_s
  end
 end
