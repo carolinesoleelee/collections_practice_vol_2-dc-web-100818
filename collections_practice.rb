@@ -32,11 +32,11 @@ def merge_data(keys,data)
 	if key_first[:first_name] == key
 		value[:first_name] = key
 	merged << value
+	   end
+	  end
 	 end
 	end
-	end
-	end
-	merged
+merged
 end
 
 def find_cool(array)
