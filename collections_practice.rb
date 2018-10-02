@@ -4,7 +4,7 @@ end
 
 def contain_a(array)
   new = []
-  array.any? do |x|
+  array.each do |x|
     x.include?("a")
     new << x
  end
