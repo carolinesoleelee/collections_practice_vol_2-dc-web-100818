@@ -29,5 +29,5 @@ def count_elements (array)
      value.collect do |key, value|
        merge_data << value
  end
- end  
+ end
 end
