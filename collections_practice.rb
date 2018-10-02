@@ -23,16 +23,20 @@ def remove_non_strings(array)
  end
 end
 
-def merge_data (one, two)
-   merged_data = []
-   one.collect do |key_|
-     two.collect do |key, value|
-       if key_[:first_name] == key
-		v[:first_name] = key
-	merged_data << value
- end
- end
-end
+
+def merge_data(keys,data)
+	merged = []
+	keys.each do |key_first|
+	data.each do |person|
+		person.each do |key,value|
+	if key_first[:first_name] == key
+		value[:first_name] = key
+	merged << value
+	 end
+	end
+	end
+	end
+	merged
 end
 
 def find_cool(array)
