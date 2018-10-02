@@ -7,6 +7,7 @@ def begins_with_r(array)
 end
 end
 end
+end
 
 def contain_a(array)
   array.select do |x|
