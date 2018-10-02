@@ -3,10 +3,8 @@ def begins_with_r(array)
 end
 
 def contain_a(array)
-  new = []
   array.delete_if do |x|
-    x != x.include?("a")
-    new << x
+    x.include?("i")
  end
   new
 end
