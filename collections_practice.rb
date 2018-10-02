@@ -6,6 +6,7 @@ def begins_with_r(array)
     x != x.include?("r")
     return false
   end
+  end
 end
 end
 
