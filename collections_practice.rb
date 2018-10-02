@@ -3,8 +3,8 @@ def begins_with_r(array)
 end
 
 def contain_a(array)
-  array.delete_if do |x|
-    x.include?("i")
+  array.select do |x|
+    x.include?("a")
  end
   end
 
