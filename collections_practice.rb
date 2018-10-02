@@ -39,3 +39,11 @@ def find_cool(array)
 end
 end
 end
+
+
+def organize_schools(school)
+  loc_hash = {}
+  schools.collect {|a,b| loc_hash[b[:location]] = []}
+  loc_hash.each {|a,b| schools.each {|a1, b1| if a ==
+    b1[:location] then b << a1 end}}
+end
