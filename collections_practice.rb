@@ -34,6 +34,6 @@ end
 
 def find_cool(array)
   array.select do |key,value|
-    value == "cool"
- end 
+    puts value 
+ end
 end
