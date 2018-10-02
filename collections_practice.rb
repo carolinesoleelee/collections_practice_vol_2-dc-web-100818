@@ -34,7 +34,7 @@ end
 
 def find_cool(array)
 	array.select do |x|
-		x[]:temperature] == "cool"
+		x[:temperature] == "cool"
 	end
 end
 
