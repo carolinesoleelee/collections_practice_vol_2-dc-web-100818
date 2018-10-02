@@ -6,5 +6,4 @@ def contain_a(array)
   array.delete_if do |x|
     x.include?("i")
  end
-  new
-end
+  end
