@@ -5,7 +5,7 @@ end
 def contain_a(array)
   new = []
   array.delete_if do |x|
-    x !== x.include?("a")
+    x != x.include?("a")
     new << x
  end
   new
