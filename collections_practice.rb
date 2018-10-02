@@ -6,3 +6,4 @@ def beings_with_r(array)
     return false
   end
 end
+end
