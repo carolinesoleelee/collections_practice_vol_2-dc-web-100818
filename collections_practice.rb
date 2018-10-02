@@ -9,10 +9,4 @@ def contain_a(array)
   end
 
 def first_wa(array)
-  new []
-  array.any? do |x|
-    x.include?("wa")
-    new << x
-end
-new
 end
