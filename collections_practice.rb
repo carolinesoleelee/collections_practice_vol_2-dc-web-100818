@@ -34,6 +34,6 @@ end
 
 def find_cool(array)
   array.select do |key,value|
-    puts value 
+    puts "#{key} #{value}"
  end
 end
